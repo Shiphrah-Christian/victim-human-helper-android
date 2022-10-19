@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Ambulance_profile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:padding="13dp"
+        android:textSize="15dp"
+        android:background="@android:color/holo_green_dark">
+    </TextView>
+
+    <EditText
+        android:id="@+id/ambu_profile_area"
+        android:enabled="false"
+        android:padding="10dp"
+        android:hint="enter area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/ambu_profile_city"
+        android:enabled="false"
+        android:padding="10dp"
+        android:hint="enter city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/ambu_profile_state"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:hint="enter state"
+        android:inputType="text"
+        android:padding="10dp"></EditText>
+
+    <EditText
+        android:id="@+id/ambu_profile_name"
+        android:enabled="false"
+        android:padding="10dp"
+        android:hint="enter driver name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/ambu_profile_contact"
+        android:enabled="false"
+        android:padding="10dp"
+        android:hint="enter contact no."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/ambu_profile_email"
+        android:enabled="false"
+        android:padding="10dp"
+        android:hint="enter email ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/ambu_profile_password"
+        android:enabled="false"
+        android:padding="10dp"
+        android:hint="enter password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </EditText>
+    <Button
+        android:id="@+id/ambu_profile_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Edit Account"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </Button>
+    <Button
+        android:visibility="gone"
+        android:id="@+id/ambu_profile_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Update"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </Button>
+    <Button
+        android:id="@+id/ambu_profile_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Delete Account"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </Button>
+    <Button
+        android:id="@+id/ambu_profile_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Logout"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </Button>
+</LinearLayout>

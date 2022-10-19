@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "782807555213",
+    "firebase_url": "https://victim-human-helper.firebaseio.com",
+    "project_id": "victim-human-helper",
+    "storage_bucket": "victim-human-helper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782807555213:android:2dd6cf799c0027714616c4",
+        "android_client_info": {
+          "package_name": "com.e.victimhumanhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782807555213-in4hntc0thqpcsfu4i3g2ludegh48lms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.e.victimhumanhelper",
+            "certificate_hash": "c82075444e3a778f644b6b088814e199a22e59e8"
+          }
+        },
+        {
+          "client_id": "782807555213-eejnnutbjddkish8h7si1ofncpgi3c0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOB0PcpU6W2fasLiwwd4V3O2YSTVe-Lrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782807555213-eejnnutbjddkish8h7si1ofncpgi3c0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
